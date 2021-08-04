@@ -1,0 +1,90 @@
+/* body {
+    margin: 0px;
+} */
+
+/* div {
+    
+    border: solid black;
+    
+}  */
+
+/* .top {
+    border: solid blueviolet;
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    left: 824px;
+}
+
+.middle {
+    border: solid black;
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    left: 408px;
+} 
+
+.bottom {
+    border: solid orangered;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 412px;
+} */
+
+
+ /* V-shape: */ */
+
+body {
+    margin: 0px;
+}
+
+div {
+    margin: 0px;
+}
+
+.top {
+    border: solid rgb(134, 63, 201);
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.middle {
+    border: solid black;
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    right: 4px;
+    top: 206px;
+    /* Copied from fonts.google.com */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: rgb(243, 246, 247);
+    
+    
+}
+
+.bottom {
+    border: solid orangered;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block; 
+    position: relative;
+    right: 8px;
+} 
+
+span {
+    text-decoration: underline;
+    text-decoration-style: double;
+}

@@ -1,0 +1,13 @@
+h1 {
+    border: solid  violet;
+}
+
+p {
+    border: solid black;
+}
+
+ul {
+    border: solid blue;
+}
+
+li {border: solid chocolate;}

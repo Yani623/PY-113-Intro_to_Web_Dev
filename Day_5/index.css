@@ -1,0 +1,10 @@
+#lizard {
+    display: block;
+    width: 200px;
+    /* To center the image horizontally, display as a block and use the following: */
+    margin-left: auto; 
+    margin-right: auto;
+    /* To center vertically: */
+    position:relative;
+    top: 200px;
+}

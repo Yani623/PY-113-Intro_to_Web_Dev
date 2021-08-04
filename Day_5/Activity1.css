@@ -1,0 +1,137 @@
+
+.header {
+    height: 350px;
+    /* background-color: C81D25; */
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    /* background-image: url(314.jpg);
+    background-repeat: no-repeat;  */
+    z-index: 0;
+}
+
+.pageHeader {
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+    bottom: 420px;
+    right: 7px;
+}
+
+.backgroundimg {
+    background-color: C81D25;
+    height: 350px;
+    width: 70%;
+    display: inline-block;
+    opacity: 30%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#mcdLogo {
+    margin-top: 25px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    right: 50%
+}
+
+.funFacts {
+    list-style-type: none;
+}
+
+.mcdFact {
+    margin: 0;
+    padding: 10px 0 10px 45px;
+    list-style-type: none;
+    background-image: url("bigMac.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+
+}
+
+#cfaLogo {
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cfaFact {
+    margin: 0;
+    padding: 10px 0 10px 60px;
+    list-style-type: none;
+    background-image: url("cknsand.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 45px;
+}
+
+#bkLogo {
+    width: 150px;
+    /* border-radius: 50%; */
+    margin-left: 0%;
+}
+
+.bkFact {
+    margin: 0;
+    padding: 10px 0 10px 45px;
+    list-style-type: none;
+    background-image: url("whopper.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+}
+
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+/* #bigMac {
+    background:url('img/bigMac.png') no-repeat left top;
+    height: 34px;
+    padding-top: 7px;
+    padding-left: 44px;
+} */
+.smLogo {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+.signUp {
+    text-align: center;
+}
+
+footer {
+    text-align: ;
+}
+
+.twitterLogo {
+    width: 48px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+@media (max-width: 400px) {
+    .restLogo {
+        margin-top: 10px;
+        position: relative;
+        left: 125px;
+        
+    }
+    #cfaLogo {
+        position: relative;
+        left: 75px;
+    }
+}
