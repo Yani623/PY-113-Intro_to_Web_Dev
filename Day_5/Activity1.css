@@ -1,24 +1,36 @@
+body {
+    /* background-image: url(background.png); */
+    background-color: 0b3954;
+    /* opacity: 30%; */
+    z-index: -2;
+}
+
 
 .header {
+    /* background-color: c81d25; */
+    opacity: 50%;
+    display: inline-block;
     height: 350px;
+    width: 700px;
     /* background-color: C81D25; */
-    text-align: center;
+    /* text-align: center; */
     font-size: 50px;
     margin: 0;
-    /* background-image: url(314.jpg);
-    background-repeat: no-repeat;  */
+    background-image: url(background.png);
+    background-repeat: no-repeat; 
     z-index: 0;
 }
 
 .pageHeader {
     display: inline-block;
+    /* position: relative; */
+    /* bottom: 420px;
+    right: 7px; */
     z-index: 2;
-    position: relative;
-    bottom: 420px;
-    right: 7px;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
-.backgroundimg {
+/* .backgroundimg {
     background-color: C81D25;
     height: 350px;
     width: 70%;
@@ -27,12 +39,12 @@
     z-index: 1;
     margin: 0;
     padding: 0;
-}
+} */
 
 #mcdLogo {
     margin-top: 25px;
     width: 150px;
-    display: inline-block;
+    display: block;
     text-align: center;
     right: 50%
 }
