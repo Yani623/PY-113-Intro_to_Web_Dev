@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index2.css">
+    <title>BootstrapSite2</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+  <div class="navBar" id="navBar">
+      <nav class="navbar fixed-top navbar-expand-lg" id="navBar">
+          <div class="container-fluid" id="navBar">
+            <a class="navbar-brand" href="#">
+              Random Facts
+            </a>
+            <div class="navTabs">
+            <form class="d-flex">
+              <a class="nav-link active" id="about" aria-current="page" href="#">
+                About 
+              </a>
+              <a class="nav-link active" id="browseTopics" aria-current="page" href="#">
+                Browse Topics 
+              </a>
+            </form>
+          </div>
+
+          </div>
+      </nav>
+  </div>
+<!-- Page Header -->
+  <div class="header">
+    <h2>Fun Fast Food Facts</h2>
+    <!-- <hr> -->
+
+  </div>
+
+
+
+
+<!-- <div class="header">
+  <h1 class="headerText">Fun <br> Fast Food <br> Facts</h1>
+</div> -->
+
+<!-- Random Fact Cards -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" id="mcdCard">
+          <img src="mcdfries.jpg" class="card-img-top" alt="McDonald's Fries">
+          <div class="card-body">
+            <h5 class="card-title">McDonald's</h5>
+            <ul class="Factlist" id="bigMac">
+              <li class="mcdFact" id="fact">With $8.7 billion in revenue from franchise stores alone, McDonald's has more money than the entire country of Mongolia.</li>
+              <li class="mcdFact" id="fact">According to the well-known book, Fast Food Nation, a survey discovered that 88 percent of respondents worldwide could identify the golden arches of McDonald's, while a only 54 percent recognized the Christian cross.</li>
+              <li class="mcdFact" id="fact">Every single day, almost one percent of the global population eats at McDonald's. That translates to 69 million people with 75 burgers being sold every second on average.</li>
+          </ul>
+          </div>
+        </div>  
+      </div>  
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="card" id="cfaCard">
+          <img src="cfaimage.jpg" class="card-img-top" alt="McDonald's Fries">
+          <div class="card-body">
+            <h5 class="card-title">Chick-fil-A</h5>
+            <ul class="Factlist" id="cknsand">
+              <li class="cfaFact" id="fact">The restaurant's lemonade is so popular that the chain squeezed more than 200 million lemons in 2013 alone. You know the saying: When life gives you more than 200 million lemons, make a lot of lemonade to wash down fried-chicken sandwiches.</li>
+              <li class="cfaFact" id="fact">Their faith-based leadership is the reason every Chick-fil-A is closed on Sunday—even the one located in a Football Stadium.</li>
+              <li class="cfaFact" id="fact">Have you ever spotted customers camping out in front of a store for a chicken sandwich? It's a regular, all-night party when a new Chick-fil-A is set to open, with the first 100 customers winning a meal once a week for a year.</li>
+          </ul>
+          </div>
+        </div>  
+      </div>
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card" id="bkCard">
+          <img src="bkImage2.jpg" class="card-img-top" alt="Burger King">
+          <div class="card-body">
+            <h5 class="card-title">Burger King</h5>
+              <ul class="Factlist" id="bkFact">
+                  <li class="bkFact" id="fact">Some celebrities are the lucky owners of the Burger King Crown Card. This prestigious card entitles the holder to an endless supply of burgers and fries at any Burger King.</li>
+                  <li class="bkFact" id="fact">Have you ever wanted to smell like a mouthwatering burger, carrying "the scent of seduction with a hint of flame-broiled meat?" Back in 2015, you could purchase the limited-edition cologne for $55 in Japan.</li>
+                  <li class="bkFact" id="fact">When Burger King decided to open up chains in Australia it turned out there was already a Burger King in the country, and they had trademarked the name. In the end, they opened with a new name, Hungry Jack, which is still the name they go by down under today.</li>
+              </ul>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+    <br>
+
+
+
+
+
+
+        
+  <!-- Section 2 -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Color Pallette
+              </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  <img src="colorPallete2.png" alt="Color Pallette Img" id="colorPallette">
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- Typography Accordion -->
+      <div class="col">
+        <div class="accordion" id="accordionExample2">
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              Typography
+              </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+              <div class="accordion-body">
+                  <img src="typography.png" alt="Typography Img" id="Typography">
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- Footer -->
+  </footer>
+    <div class="footer">Follow Us On:
+        <!-- <p class="footerLinks"> Follow Us On: </p> -->
+        <a href="https://www.facebook.com">
+            <img class="smLogo" src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" alt="Facebook Symbol"/>
+        </a>
+        <a href="https://www.instagram.com">
+            <img class="smLogo" src="https://www.freepnglogos.com/uploads/new-instagram-logo-png-1.png" alt="new instagram logo png"/>
+        </a>
+        <a href="https://www.twitter.com">
+            <img class="twitterLogo" src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-transparent-square-blue-latest-0.png" alt="twitter logo" alt="twitter logo"/>
+        </a>
+    </div>
+  </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+    body{
+        background-image: url(background.png);
+        background-color: #BFD7EA ;
+        background-blend-mode: overlay;
+    }
+
+    .navBar {
+        height: 70px;
+        font-family: 'Inconsolata', monospace;
+        padding-top: 3px;
+        font-weight: bolder;
+    }
+
+    #navBar {
+        padding: 0;
+        position: -webkit-sticky;
+        background-color: #0B3954;
+        height: 70px;
+        border-bottom: solid white;
+        border-width: 2px;
+    }
+
+    .navbar-brand {
+        color: white;
+        position: relative;
+        left: 460px;
+        font-size: 24px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .navTabs {
+        display: inline-block;
+        position: relative;
+        right: 500px;
+    }
+    .nav-link.active {
+        display: inline-block;
+        border-left: solid white;
+        border-width: 2px;
+        color: white;
+        padding: 20px 20px 23px 20px;
+        padding-top: 20px;
+        padding-bottom: 23px;
+        height: 70px;
+    
+    }
+
+    #browseTopics {
+        border-right: solid white;
+        border-width: 2px;
+    }
+    .browseTopics {
+        text-align: center;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin: 0;
+    }
+
+    .header {
+        height: 90px;
+        color: white;
+        background-color: #0B3954;
+        margin: 0 0 10px 0;
+        padding: 0;
+        border-bottom: solid white;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bolder;
+        font-size: 36px;
+    }
+
+
+    .card-img-top {
+        width: 414px;
+        height: 250px;
+    }
+
+    ol, ul {
+        padding-left: 0px;
+    }
+
+    .mcdFact {
+        margin: 0;
+        padding: 10px 0 10px 45px;
+        list-style-type: none;
+        background-image: url("bigMac.png");
+        background-repeat: no-repeat;
+        background-position:left top;
+        background-position-y: 11px;
+        background-size: 30px;
+    }
+
+    .cfaFact {
+        margin: 0;
+        padding: 5px 0 5px 50px;
+        list-style-type: none;
+        background-image: url("cknsand.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position-y: 15px;
+        background-size: 45px;
+    }
+
+    .bkFact {
+        margin: 0;
+        padding: 10px 0 10px 45px;
+        list-style-type: none;
+        background-image: url("whopper.png");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-position-y: 15px;
+        background-size: 35px;
+    }
+    #colorPallette {
+        width: 100%;
+    }
+
+    .card-body {
+        height: 564px;
+        background-color: #087E8B;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    #fact {
+        color: white;
+    }
+
+    .accordion-button {
+        background-color: #0B3954;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    .accordion-button.collapsed {
+        background-color: #0B3954;
+        color: white;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    /* Footer */
+
+    .footer {
+        height: 50px;
+        text-align: center;
+        background-color: #0B3954;
+        opacity: 90%;
+        padding-top: 5px;
+        position: sticky;
+        margin-bottom: 0;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 10px;
+        color: white;
+    }
+    a {
+        text-decoration: none;
+        word-spacing: 10px;
+    }
+    .twitterLogo {
+        width: 45px;
+        margin: 0;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: 4px;
+    }
+
+    .smLogo {
+        width: 45px;
+        height: 35px;
+        padding-left: 7px;
+    }

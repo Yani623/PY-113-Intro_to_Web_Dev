@@ -1,0 +1,99 @@
+.navBar {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    padding-top: 3px;
+    font-weight: bolder;
+    border-bottom: solid #0B3954;
+    border-width: 2px;
+    background-color: white;
+}
+
+.nav-link.active:hover {
+    color: white;
+    background-color: #0B3954;
+    opacity: 95%;
+}
+
+
+#navBar {
+    padding: 0;
+    position: -webkit-sticky;
+    height: 65px;
+
+}
+
+.navbar-brand {
+    color: #0B3954;
+    position: relative;
+    /* left: 25%; */
+    font-size: 36px;
+    font-weight: 200;
+    vertical-align: center;
+    margin-left: 17%;
+    
+}
+
+.initials {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.navTabs {
+    display: inline-block;
+    position: relative;
+    margin-right: 20%;
+}
+.nav-link.active {
+    display: inline-block;
+    border-left: solid #0B3954;
+    border-width: 2px;
+    color: #0B3954;
+    padding: 20px 20px 23px 20px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    height: 65px;
+    margin: auto 5px auto 5px;
+
+}
+
+#lastTab {
+    border-right: solid #0B3954;
+    border-width: 2px;
+}
+.browseTopics {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    word-spacing: 7px;
+}
+
+.sM {
+    padding: 17px;
+    
+}
+
+.smIcon {
+    color: #0B3954;
+    width: 20px;
+}
+
+.smIcon:hover {
+    color: white;
+    background-color: #0B3954;
+    background-blend-mode: inherit;
+    opacity: 90%;
+}
+
+svg {
+    font-size: 40px;
+}
+
+.footer {
+    height: 20px;
+    background-color: #0B3954;
+    position: stick;
+}

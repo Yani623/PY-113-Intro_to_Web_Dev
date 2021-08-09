@@ -1,0 +1,13 @@
+#skills {
+    background-color: #0B3954; 
+    opacity: 95%;
+    color: white;
+    border-radius: .15rem;
+    border: solid #0B3954;
+    border-left: none;
+    
+}
+
+#aboutMe {
+    border-right: solid #0B3954;
+}
