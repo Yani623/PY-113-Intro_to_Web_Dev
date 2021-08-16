@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap Link: -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="choose.css">
+    <title>Choose Pokemon</title>
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid text-center mt-3 mb-5" id="chooseHeader">
+        <h1 id="chooseHeader" class="display-3 text-white">Choose Your Pokemon</h1>
+
+
+
+
+    <!-- Pokeball Columns:
+    class="row justify-content-md-center": centers columns on page.
+    class="img-fluid: Resizes image to fit in column.  -->
+    <div class="container-fluid center" id="pokeballRow">    
+        <div class="row justify-content-md-center"> 
+            <div class="col-sm-3  px-4">
+                <h3 id="pokeball1">Pokeball 1</h3>
+                <img src="pokeball.png" class="img-fluid" alt="pokeball" id="pb1" onmouseover="pokemon1a()" onmouseleave="pokemon1b()" 
+                onclick="openPokeball(bulbasaur)"
+            > 
+            </div>
+            <div class="col-sm-3 px-4">
+                <h3 id="pokeball2" >Pokeball 2</h3>
+                <img src="pokeball.png" class="img-fluid" alt="pokeball" id="pb2" onmouseover="pokemon2a()" onmouseleave="pokemon2b()"
+                onclick="openPokeball(squirtle)">
+            </div>
+            <div class="col-sm-3 px-4">
+                <h3 id="pokeball3" >Pokeball 3</h3>
+                <img src="pokeball.png" class="img-fluid" alt="pokeball" id="pb3"  onmouseover="pokemon3a()" onmouseleave="pokemon3b()"
+                onclick="openPokeball(charmander)">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+    <!-- JS File -->
+    <script src="choose.js"></script>
+    <!-- Bootstrap JS: -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
