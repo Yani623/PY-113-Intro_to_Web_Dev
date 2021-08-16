@@ -1,0 +1,21 @@
+button {
+    display: block;
+    margin: auto;
+}
+
+#diceHeader {
+    margin-bottom: 150px;
+}
+
+.img-fluid {
+    margin-bottom: 40px;
+}
+
+#die {
+    width: 200px;
+    height: 200px;
+}
+
+.col-sm-4.px-4 {
+    margin: auto;
+}
