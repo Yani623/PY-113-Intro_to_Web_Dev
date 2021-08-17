@@ -4,18 +4,23 @@ button {
 }
 
 #diceHeader {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .img-fluid {
     margin-bottom: 40px;
+
 }
 
+.dieValue {
+    text-align: center;
+}
 #die {
     width: 200px;
     height: 200px;
 }
 
-.col-sm-4.px-4 {
-    margin: auto;
+.total {
+    
+    text-align: center;
 }

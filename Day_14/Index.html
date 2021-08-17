@@ -15,23 +15,33 @@
     <div class="container-fluid text-center mt-3 mb-5" id="Header">
         <h1 id="diceHeader" class="display-3 text-black " >Dice Game</h1>
     </div>
-    <div class="container-fluid center">
-        <div class="row justify-content-md-center mb=0"> 
-            <div class="col-sm-3  px-4">
-                Die Value
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center"> 
+            <div class="col-sm-3 px-4">
+                <h1 class="dieValue display-3" id="die1"></h1>
             </div> 
-            <div class="col-sm-3 justify-content-md-center ">
-                Die Value
+            <div class="col-sm-2 px-4">
+                
+            </div>
+            <div class="col-sm-3 px-4">
+                <h1 class="dieValue display-3" id="die2"></h1>
             </div>
         </div>
         
     </div>
 
     <div class="container-fluid center" >
-        <div class="row justify-content-md-center mb=0"> 
+        <!-- class="row justify-content-center align-items-center":  -->
+        <div class="row justify-content-center align-items-center"> 
             <div class="col-sm-3  px-4">
                 <img class="img-fluid mb=0"  src="die.png" alt="die">
             </div> 
+            <div class="col-sm-2">
+                <div class="row justify-content-center align-items-center"> 
+                    <h1 class="display-5">Total Score:</h1>
+                    <h1 id="total" class="display-4 text-black justify-content-center"></h1>
+                </div>
+            </div>
             <div class="col-sm-3  px-4 mb=0">
                 <img class="img-fluid"  src="die.png" alt="die">
             </div>
@@ -40,7 +50,7 @@
     <div class="container-fluid center" >
         <div class="row justify-content-md-center"> 
             <div class="col-sm-4  px-4">
-                <button>Roll Dice</button>
+                <button class="clickRoll mb=5" id="rollDie1" onclick="rollDice()">Roll Dice</button>
             </div> 
         </div> 
     </div> 
