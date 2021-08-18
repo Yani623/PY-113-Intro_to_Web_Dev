@@ -3,7 +3,7 @@ button {
     margin: auto;
 }
 
-#diceHeader {
+#Header1 {
     margin-bottom: 50px;
 }
 
@@ -21,6 +21,17 @@ button {
 }
 
 .total {
-    
+    text-align: center;
+}
+
+.player {
+    text-align: center;
+}
+
+#totalHeader {
+    text-align: center;
+}
+
+#score {
     text-align: center;
 }

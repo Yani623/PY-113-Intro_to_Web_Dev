@@ -9,37 +9,43 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="index.css">
-    <title>Roll Dice</title>
+    <title>Dice Battle</title>
 </head>
 <body>
     <div class="container-fluid text-center mt-3 mb-5" id="Header">
-        <h1 id="diceHeader" class="display-3 text-black " >Dice Game</h1>
+        <h1 id="Header1" class="display-1 text-black " >Dice Battle</h1>
     </div>
-    <div class="container-fluid">
+    <div class="diceHeader container-fluid" id="diceHeader">
         <div class="row justify-content-center align-items-center"> 
             <div class="col-sm-3 px-4">
-                <h1 class="dieValue display-3" id="die1"></h1>
+                <h1 class="player display-4 justify-content-center" id="player1">Player 1</h1>
+                <h2 id="score" class="score1 display-5">Score = 0</h2>
+                <h1 class="dieValue display-6" id="die1"></h1>
             </div> 
-            <div class="col-sm-1 px-4">
-                
+            <div class="col-sm-2 px-4 display-3" id="winner">
+                <h2></h2>
             </div>
             <div class="col-sm-3 px-4">
-                <h1 class="dieValue display-3" id="die2"></h1>
+                <h1 class="player display-4 justify-content-center" id="player2">Player 2</h1>
+                <h2 id="score" class="score2 display-5">Score = 0</h2>
+                <h1 class="dieValue display-5" id="die2"></h1>
             </div>
         </div>
         
     </div>
-
+    <!-- Row: Dice and Roll Button -->
     <div class="container-fluid center" >
-        <!-- class="row justify-content-center align-items-center":  -->
         <div class="row justify-content-center align-items-center"> 
             <div class="col-sm-3  px-4">
                 <img class="img-fluid mb=0"  src="die.png" alt="die">
             </div> 
-            <div class="col-sm-1">
-                <div class="row justify-content-center align-items-center"> 
-                    <h1 id="totalHeader" class="display-5">Total Score</h1>
-                    <h1 id="total" class="display-4 text-black justify-content-center"></h1>
+            <div class="col-sm-2">
+                <div class="container-fluid center" >
+                    <div class="row justify-content-md-center"> 
+                        <div class="">
+                            <button class="clickRoll" id="rollDie1" onclick="diceBattle()">Roll Dice</button>
+                        </div> 
+                    </div> 
                 </div>
             </div>
             <div class="col-sm-3  px-4 mb=0">
@@ -47,13 +53,13 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid center" >
-        <div class="row justify-content-md-center"> 
-            <div class="col-sm-4  px-4">
-                <button class="clickRoll mb=5" id="rollDie1" onclick="rollDice()">Roll Dice</button>
-            </div> 
-        </div> 
-    </div> 
+    <!-- <div class="row justify-content-center align-items-center"> 
+        <h1 id="totalHeader" class ="display-5 justify-content-center">Total Score</h1>
+    </div>
+    <div class="row justify-content-center align-items-center"> 
+        <h1 id="total" class="display-4 text-black justify-content-center"></h1>
+    </div> -->
+ 
 
 
 
@@ -61,7 +67,7 @@
 
 
     <!-- JS File -->
-    <script src="index.js"></script>
+    <script src="index2.js"></script>
     <!-- Bootstrap JS: -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
