@@ -1,0 +1,19 @@
+.demoWrapper {
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    resize: horizontal;
+    border: 1px dashed;
+    overflow: auto;
+    max-width: 100%;
+    height: calc(100vh - 16px);
+    border: solid black;
+}
+
+div {
+    display: inline-block;
+width: 20vw;
+height: 20vw;
+background: gold;
+border: solid black;
+}

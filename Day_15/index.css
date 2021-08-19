@@ -1,0 +1,37 @@
+button {
+    display: block;
+    margin: auto;
+}
+
+#Header1 {
+    margin-bottom: 50px;
+}
+
+.img-fluid {
+    margin-bottom: 40px;
+
+}
+
+.dieValue {
+    text-align: center;
+}
+#die {
+    width: 200px;
+    height: 200px;
+}
+
+.total {
+    text-align: center;
+}
+
+.player {
+    text-align: center;
+}
+
+#totalHeader {
+    text-align: center;
+}
+
+#score {
+    text-align: center;
+}

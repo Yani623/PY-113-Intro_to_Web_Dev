@@ -1,0 +1,23 @@
+.bd4 {
+    background-color: lightseagreen;
+    border-radius: 1rem;
+    border: solid white;
+    opacity: 30%;
+    aspect-ratio: 1/1;
+    z-index: 1;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+
+/* Will need to include this in the jquery function when placing pieces into game board. */
+.img-fluid {
+    margin-top: 15px; 
+    aspect-ratio: 1/1;
+    z-index: 0;
+}
+
+
